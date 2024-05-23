@@ -3,7 +3,7 @@
 At **Feature Selection** section, used .corrs function to find the correlation of all columns with the target 'applicationStatus'. Used the correlated features as attributes.
 
 
-At the 'Model Training and Hyperparameter Tuning' section, experimented upsampling and downsampling method with 5 popular classifiers - Logistic Regression, Decision Tree, SVM, XGBoost, RandomForest. This is due to class imbalance in the original dataset.
+At the 'Model Training and Hyperparameter Tuning' section, experimented upsampling and downsampling method on training set (NOT testing) with 5 popular classifiers - Logistic Regression, Decision Tree, SVM, XGBoost, RandomForest. This is due to class imbalance in the original dataset.
 
 Conducted tuning using GridSearchCV on hyperparameters suggested from websites below: [decisionTree](https://www.geeksforgeeks.org/how-to-tune-a-decision-tree-in-hyperparameter-tuning/), [Logistic Regression](https://medium.com/codex/do-i-need-to-tune-logistic-regression-hyperparameters-1cb2b81fca69),[SVM](https://www.geeksforgeeks.org/svm-hyperparameter-tuning-using-gridsearchcv-ml/).
 
