@@ -1,3 +1,5 @@
+link to colab: https://colab.research.google.com/drive/1buYYdcCanS5HqDF_OnQToeDD0zQk4cXV?usp=sharing 
+
 # Notebook Summary
 
 At **Feature Selection** section, used .corrs function to find the correlation of all columns with the target 'applicationStatus'. Used the correlated features as attributes.
